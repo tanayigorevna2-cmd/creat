@@ -1,0 +1,81 @@
+/* ====== CSS Reset ====== */
+
+/* Універсальне обнулення */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Тіло та шрифти */
+
+ 
+
+/* Списки без маркерів */
+ul,
+ol {
+  list-style: none;
+}
+
+/* Лінки без підкреслень */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Зображення та відео */
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+/* Таблиці */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* Формові елементи */
+button,
+input,
+textarea,
+select {
+  font: inherit;
+  outline: none;
+  border: none;
+  background: none;
+}
+
+/* Поля для форм без стандартного стилю */
+input:focus,
+textarea:focus {
+  outline: none;
+}
+
+/* Скидаємо quotes у blockquote та q */
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote::before,
+blockquote::after,
+q::before,
+q::after {
+  content: '';
+}
+
+/* Прокрутка / overflow */
+body,
+html {
+  scroll-behavior: smooth;
+}
+
+/* Користувацькі стилі можна додати далі */
