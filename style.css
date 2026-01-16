@@ -87,7 +87,9 @@ padding-bottom: 5px;
 }
 /* Button */
 .btn,
- .button{
+ .button,
+.btn-footer
+{
   background-color:#C47A4A;
   color: #0B1C2D;
   padding: 10px 18px;
@@ -1052,6 +1054,7 @@ padding-bottom: 30px;
  .box-check{
   padding: 20px;
  }
+
 
 
 
